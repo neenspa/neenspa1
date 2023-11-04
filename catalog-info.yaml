@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: neenspa1
+  description: remove-vm
+  annotations:
+    backstage.io/kubernetes-id: neenspa1
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/neenspa1
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
